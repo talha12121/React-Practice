@@ -1,0 +1,42 @@
+body{
+    background-color: white !important;
+}
+
+@font-face {
+    font-family: 'Poppins', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+} 
+ @import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Poppins&display=swap');
+
+
+ 
+.users{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;  
+}
+.cards{
+ margin-top: 20px;
+}
+.sangat{
+  text-align: center;
+  font-family: Alkatra;
+  padding-top: 10px;
+  color: white;
+}
+.sangat_div{
+  /* margin-top: 30px; */
+  background-color: #078795;
+}
+
+@media (max-width:696px) {
+  .cards{
+   width: 17rem !important;
+  }
+}
+@media (max-width:600px) {
+  .cards{
+   width: 16rem !important;
+  }
+}

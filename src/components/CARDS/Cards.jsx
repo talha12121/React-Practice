@@ -1,7 +1,7 @@
 
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import "../App.css"
+import "../../App.css"
 function Cards(){
 const data =[
     {
@@ -39,6 +39,12 @@ const data =[
     },
 ]
 return (
+  <>
+  <div className='sangat_div'>
+    <h1 className='sangat'>The Five Musketeers  </h1>
+    </div>
+  
+
     <div className="users">
       {data.map((user) => (
         <>
@@ -55,14 +61,15 @@ return (
         </>
       ))}
     </div>
+    </>
   );
 
 
-// {data.map((newData)  =>{
-//         return(
+// {data.map((newData)  =>()
+//        
 //             <h1>dara{newData.id}</h1>
-//         )
-//     })
+//         
+//     ))
 // }
 }
 export default Cards

@@ -1,0 +1,77 @@
+.box {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid wheat;
+    border-radius:20px ;
+  }
+  
+  .inner_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .input {
+    width: 60%;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .button ,.Delete {
+    /* width: 40%; */
+    text-align: center;
+    padding:9px 9px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 14px;
+    padding-bottom: 10px;
+  }
+  .todo-item {
+    border-bottom: 1px solid #ccc ; 
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+   
+  }
+  
+  .todo-text {
+    flex: 1;
+    color: #fff;
+  }
+  .heading h2{
+    color: white;
+    text-align: center;
+    background: transparent;
+    text-shadow: 0 2px 2px black;
+    margin-top: 30px;
+  }
+  
+  .delBtn {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
